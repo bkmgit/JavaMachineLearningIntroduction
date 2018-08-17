@@ -1,6 +1,7 @@
 """
 @JeraldyDeus
 Implementing an Artificial Neural Network in Pure Java (No external dependencies)
+np.java -> https://gist.github.com/Jeraldy/7d4262db0536d27906b1e397662512bc
 BSD License
 """
 import static janet.np.print;
