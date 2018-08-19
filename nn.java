@@ -39,7 +39,8 @@ public class NN {
             double[][] A2 = np.sigmoid(Z2);
 
             double cost = np.cross_entropy(m, Y, A2);
-            costs.getData().add(new XYChart.Data(i, cost));
+            //costs.getData().add(new XYChart.Data(i, cost));
+         
             // Back Prop
             //LAYER 2
             double[][] dZ2 = np.subtract(A2, Y);
